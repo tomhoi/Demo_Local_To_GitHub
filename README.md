@@ -21,7 +21,7 @@ After that, you can have `ls -la` to see the newly generated stuff (hidden) in t
 Run the following instructions:
 
 - `git status`
-- `git add README.md`
+- `git add README.md` or `git add .`
 - `git commit -m "Created README.md"`
 
 ## On GitHub
@@ -42,3 +42,16 @@ Run the following instructions:
 Finally:
 
 - `git push -u origin master`
+
+
+# Steps to keep codes, delete Git repo
+
+## Locally
+- Run  `rm -fr .git`
+- Verify that the repo is deleted by `git status`
+
+## On GitHub
+- Delete the repo on GitHub
+
+## Back to local machine
+- Follow the steps above.
